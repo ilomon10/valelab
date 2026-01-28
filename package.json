@@ -10,8 +10,8 @@
     "ui": "pnpm --filter @repo/ui ui"
   },
   "devDependencies": {
-    "prettier": "^3.6.2",
-    "turbo": "^2.5.6",
+    "prettier": "^3.8.1",
+    "turbo": "^2.7.6",
     "typescript": "5.9.2"
   },
   "engines": {

@@ -1,5 +1,4 @@
 import type { CollectionConfig } from 'payload'
-import { beforeOperationHook } from './Templates.hooks'
 import { canReadPage, canUpdatePage } from './Templates.access'
 
 export const Templates: CollectionConfig = {
@@ -81,7 +80,4 @@ export const Templates: CollectionConfig = {
       },
     },
   ],
-  hooks: {
-    beforeOperation: [beforeOperationHook],
-  },
 }

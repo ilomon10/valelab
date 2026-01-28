@@ -19,6 +19,7 @@ type PayloadClientAuth = {
 
 type PayloadClientConfig = Omit<Config, "auth"> & {
   auth: PayloadClientAuth;
+  fallbackLocale: string;
 };
 
 export const clientSDK = () => {
